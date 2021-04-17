@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "name": "order"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "food": {
+      "type": "json"
+    },
+    "amount": {
+      "type": "biginteger"
+    }
+  }
+}

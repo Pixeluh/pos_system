@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pointofsales",
+      "handler": "pointofsale.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pointofsales/count",
+      "handler": "pointofsale.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pointofsales/:id",
+      "handler": "pointofsale.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pointofsales",
+      "handler": "pointofsale.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pointofsales/:id",
+      "handler": "pointofsale.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pointofsales/:id",
+      "handler": "pointofsale.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
